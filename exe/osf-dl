@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'osf/downloader'
+
+exit OSF::Downloader::CLI.new(ARGV).run

@@ -6,6 +6,7 @@ require_relative 'downloader/version'           # before client: Client::USER_AG
 require_relative 'downloader/archive'
 require_relative 'downloader/bibtex'
 require_relative 'downloader/checksum_mismatch' # after error
+require_relative 'downloader/cli'
 require_relative 'downloader/client'            # after version
 require_relative 'downloader/file_parser'
 require_relative 'downloader/identifier'        # after error

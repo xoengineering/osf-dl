@@ -50,5 +50,5 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{\Aexe/}) { File.basename it }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'dl-core', '~> 0.2'
+  spec.add_dependency 'dl-core', '~> 0.3' # 0.3 lets the CLI default to OSF's slower rate limit
 end
