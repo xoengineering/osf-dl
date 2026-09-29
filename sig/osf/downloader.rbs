@@ -1,0 +1,5 @@
+module OSF
+  module Downloader
+    VERSION: String
+  end
+end
